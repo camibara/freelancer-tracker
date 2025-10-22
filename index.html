@@ -149,7 +149,8 @@
             <section id="schedule" class="mb-12 md:mb-20">
                  <h2 class="text-3xl font-bold text-center text-slate-900 mb-8">Planul Zilnic Detaliat</h2>
                  <p class="text-center text-slate-600 mb-10 max-w-2xl mx-auto">Structura detaliată a zilelor de Sprint, Menține și Recuperează pentru eficacitate maximă.</p>
-                <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+                <!-- MODIFICARE: Schimbat de la lg:grid-cols-5 la md:grid-cols-5 și redus gap-ul pentru a se potrivi mai bine în iFrame-ul Notion -->
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6">
                     
                     <div class="day-column">
                         <h3 class="text-xl font-bold text-center p-3 bg-[#FF6B6B] text-white rounded-lg shadow-md mb-6">Luni: Sprint <span class="font-normal text-sm block">8.5 Ore</span></h3>
@@ -391,3 +392,4 @@
     </script>
 </body>
 </html>
+
